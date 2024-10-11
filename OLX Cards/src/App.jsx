@@ -1,12 +1,9 @@
 import Card from "./components/Card";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
   return (
-    <>
-      <Navbar /> 
+    <> 
       <div className="appContainer">
         <h1 className="appTitle">Mobile Phones</h1>
         <div className="cardRow">
@@ -32,7 +29,7 @@ function App() {
           <Card img="https://images.olx.com.pk/thumbnails/490594178-800x600.webp" price="270,000" description="Suzuki GS 150 2019 Model" location="I-8, Islamabad" time="10 days ago"/>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 }
